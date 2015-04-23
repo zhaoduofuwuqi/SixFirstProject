@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    tools:context="com.example.aaa.myapplication.Fragment_qinbiyoujian">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/f_qbyj_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#3fff"
+        android:dividerHeight="5dp"
+        />
+
+</LinearLayout>

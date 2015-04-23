@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">古董鉴赏</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">退出</string>
+    <string name="action_heart">收藏</string>
+
+    <string name="livetaste_textview1">生活品味</string>
+    <string name="livetaste_textview2">自然万物</string>
+
+    <string-array name="diloglist">
+        <item>收藏</item>
+        <item>分享</item>
+        <item>打开新地址</item>
+        <item>自由复制</item>
+    </string-array>
+
+    <color name="checked_color">#c00000</color>
+    <color name="unchecked_color">#ffffff</color>
+    <color name="livetaste_themecolor">#9CC5E3</color>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="radioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textColor">@color/radio_check</item>
+    </style>
+
+    <style name="button">
+        <item name="android:button">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#3c3f41</item>
+        <item name="android:textColor">@color/unchecked_color</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="bottom_button">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="linear_vertical_bottom">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="button_bottom">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+</resources>

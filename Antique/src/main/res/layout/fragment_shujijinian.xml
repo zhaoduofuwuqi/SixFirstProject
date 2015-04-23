@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000"
+    tools:context="com.mobiletrain.www.fragments.Fragment_ShuJiJiNian">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/f_sjjn_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#3fff"
+        android:dividerHeight="5dp"/>
+
+</FrameLayout>

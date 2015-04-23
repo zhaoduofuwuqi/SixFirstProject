@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3f41"
+    android:orientation="vertical"
+    android:paddingTop="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/button0"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="今日详情" />
+        <RadioButton
+            android:id="@+id/button1"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="器具工艺" />
+
+        <RadioButton
+            android:id="@+id/button2"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="珠宝玉石" />
+
+        <RadioButton
+            android:id="@+id/button3"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="生活品味" />
+
+        <RadioButton
+            android:id="@+id/button4"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="自然万物" />
+
+        <RadioButton
+            android:id="@+id/button5"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="书法绘本" />
+
+        <RadioButton
+            android:id="@+id/button6"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="玩具模型" />
+
+        <RadioButton
+            android:id="@+id/button7"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="钱币邮件" />
+
+        <RadioButton
+            android:id="@+id/button8"
+            style="@style/radioButton"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="书籍纪念" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/setting"
+            style="@style/button"
+            android:paddingLeft="4dp"
+            android:text="设置" />
+
+        <Button
+            android:id="@+id/exit"
+            style="@style/button"
+            android:paddingLeft="20dp"
+            android:text="退出" />
+    </LinearLayout>
+</LinearLayout>

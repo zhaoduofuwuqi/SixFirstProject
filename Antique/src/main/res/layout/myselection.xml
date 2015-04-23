@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c3f41"
+    android:orientation="vertical"
+    tools:context="com.mobiletrain.www.fragments.MySelectionFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ddd"
+        android:gravity="center_horizontal"
+        android:text="我的收藏" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2ddd"
+        />
+    <ListView
+        android:id="@+id/myselectionlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#2ddd"
+        android:dividerHeight="2dp">
+
+    </ListView>
+
+</LinearLayout>
